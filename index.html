@@ -1,0 +1,627 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>When Is It Time to Replace a Worn-Out Vehicle Key in Dandenong?</title>
+    <!-- Premium Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Global Styles */
+        * { box-sizing: border-box; }
+        body { 
+            /* Premium Gradient Body Background */
+            background: linear-gradient(135deg, #d9e2ec 0%, #b8c6d6 100%); 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            color: #334155; 
+            line-height: 1.8; 
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        /* Top Logo Section (Not Sticky, Not White) */
+        .header-logo-section {
+            background: linear-gradient(180deg, #eef2f6 0%, #e2e8f0 100%);
+            padding: 25px 20px;
+            text-align: center;
+            border-bottom: 1px solid #cbd5e1;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+        }
+        .header-logo-section img {
+            width: 100%;
+            max-width: 280px; /* Medium Size */
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 8px;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(37, 99, 235, 0.8)), url('hero section.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px 140px 20px;
+            text-align: center;
+            color: #ffffff;
+        }
+        .hero-content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .hero h1 {
+            font-size: 2.8rem;
+            line-height: 1.3;
+            margin-bottom: 20px;
+            font-weight: 800;
+            color: #ffffff;
+            text-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        .hero p {
+            font-size: 1.15rem;
+            color: #e2e8f0;
+            text-align: justify;
+            margin: 0 auto;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+        }
+
+        /* Main Container (Extended Width) */
+        .container { 
+            max-width: 1150px; /* Wider Article Area */
+            margin: -60px auto 60px auto; 
+            padding: 0 20px;
+            position: relative;
+            z-index: 10;
+        }
+        
+        /* Premium Non-White Cards */
+        .card { 
+            /* Soft metallic/grey-blue gradient instead of white */
+            background: linear-gradient(145deg, #e8f0f8 0%, #dce6f0 100%); 
+            border-radius: 12px; 
+            padding: 50px 60px; 
+            margin-bottom: 35px; 
+            /* Soft white border to give a glass/bevel pop effect */
+            border: 1px solid rgba(255, 255, 255, 0.7); 
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
+            opacity: 0; 
+            transform: translateY(20px); 
+            transition: opacity 0.6s ease, transform 0.6s ease, box-shadow 0.4s ease; 
+        }
+        .card.visible { 
+            opacity: 1; 
+            transform: translateY(0); 
+        }
+        .card:hover {
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+            transform: translateY(-3px);
+        }
+
+        /* Typography */
+        h2 { 
+            font-size: 2rem; 
+            color: #1e3a8a; /* Prominent Blue Heading */
+            margin-top: 0;
+            margin-bottom: 25px; 
+            border-bottom: 2px solid #cbd5e1;
+            padding-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+        h3 { 
+            font-size: 1.4rem; 
+            color: #0f172a; 
+            margin-top: 35px; 
+            margin-bottom: 12px; 
+            font-weight: 700;
+            position: relative;
+            padding-left: 18px;
+        }
+        h3::before { 
+            content: ''; 
+            position: absolute; 
+            left: 0; 
+            top: 5px; 
+            bottom: 5px; 
+            width: 5px; 
+            background: linear-gradient(to bottom, #2563eb, #0d9488); 
+            border-radius: 4px; 
+        }
+        p { 
+            font-size: 1.1rem; 
+            margin-bottom: 20px; 
+            text-align: justify; /* Justified text */
+            color: #334155;
+        }
+
+        /* Clear Anchor Links */
+        a.content-link { 
+            color: #1d4ed8; 
+            font-weight: 700; 
+            text-decoration: none; 
+            padding: 4px 10px; 
+            border-radius: 6px; 
+            background-color: #dbeafe; 
+            border: 1px solid #bfdbfe; 
+            transition: all 0.3s ease; 
+            display: inline-block; 
+        }
+        a.content-link:hover { 
+            color: #ffffff; 
+            background-color: #2563eb; 
+            border-color: #2563eb; 
+            transform: translateY(-2px); 
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25); 
+        }
+
+        /* FAQs Styling (Non-White) */
+        .faq-item { 
+            border: 1px solid #cbd5e1; 
+            border-radius: 8px; 
+            margin-bottom: 15px; 
+            background: linear-gradient(145deg, #e2e8f0 0%, #d8e2ea 100%); 
+            overflow: hidden; 
+            transition: all 0.3s ease;
+        }
+        .faq-item:hover {
+            box-shadow: 0 8px 20px rgba(37, 99, 235, 0.1); 
+            border-color: #94a3b8;
+        }
+        .faq-q { 
+            padding: 20px 25px; 
+            font-weight: 700; 
+            color: #0f172a; 
+            margin: 0; 
+            cursor: pointer; 
+            position: relative; 
+            font-size: 1.1rem;
+            background-color: transparent;
+            transition: color 0.3s ease;
+        }
+        .faq-item:hover .faq-q { color: #2563eb; }
+        .faq-q::after { 
+            content: '+'; 
+            position: absolute; 
+            right: 25px; 
+            top: 50%; 
+            transform: translateY(-50%); 
+            font-size: 1.6rem; 
+            color: #64748b; 
+            transition: all 0.3s ease; 
+        }
+        .faq-item:hover .faq-q::after { content: '−'; color: #2563eb; transform: translateY(-50%) rotate(180deg); }
+        .faq-a { 
+            max-height: 0; 
+            opacity: 0; 
+            padding: 0 25px; 
+            color: #334155; 
+            background-color: transparent;
+            transition: all 0.4s ease-in-out; 
+        }
+        .faq-item:hover .faq-a { 
+            max-height: 400px; 
+            opacity: 1; 
+            padding: 10px 25px 25px 25px; 
+            border-top: 1px solid #cbd5e1;
+        }
+
+        /* Business Profile Section */
+        .business-card { 
+            background: linear-gradient(145deg, #e0e7ff 0%, #dbeafe 100%); /* Premium Light Blue */
+            border: 1px solid rgba(255,255,255,0.8); 
+            border-top: 6px solid #1e3a8a; 
+        }
+        .business-header h2 { 
+            border: none; 
+            padding-bottom: 0; 
+            font-size: 2.2rem; 
+            color: #0f172a; 
+            text-align: center;
+        }
+        .business-description { 
+            background-color: #d1e1f7; 
+            padding: 25px 30px; 
+            border-radius: 12px; 
+            border-left: 5px solid #2563eb; 
+            color: #334155; 
+            font-size: 1.1rem; 
+            text-align: justify; 
+            margin-bottom: 35px;
+        }
+        .business-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+            gap: 25px; 
+        }
+        .info-item { 
+            display: flex; 
+            align-items: flex-start; 
+            gap: 15px; 
+            background: #eef5fa; /* Non-White background for info items */
+            padding: 22px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+            border: 1px solid rgba(255,255,255,0.6);
+            transition: transform 0.3s ease;
+        }
+        .info-item:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
+        .info-icon { color: #2563eb; flex-shrink: 0; margin-top: 2px; }
+        .info-text strong { display: block; color: #0f172a; font-size: 1.05rem; margin-bottom: 4px; }
+        .info-text span, .info-text a { color: #475569; font-size: 1.05rem; font-weight: 500; text-decoration: none; transition: color 0.3s ease;}
+        .info-text a:hover { color: #2563eb; text-decoration: underline; }
+
+        /* Social Icons Area */
+        .social-section { 
+            border-top: 2px dashed #bfdbfe; 
+            padding-top: 35px; 
+            margin-top: 40px; 
+            text-align: center; 
+        }
+        .social-title { font-size: 1.3rem; font-weight: 700; color: #0f172a; margin-bottom: 25px; }
+        .social-icons { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; }
+        .social-icons a { 
+            display: flex; align-items: center; justify-content: center; 
+            width: 50px; height: 50px; border-radius: 50%; 
+            background-color: #eef5fa; 
+            border: 1px solid #bfdbfe; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(0,0,0,0.04); 
+        }
+        .social-icons a:hover { 
+            transform: translateY(-4px); 
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+            background-color: #ffffff; 
+            border-color: transparent; 
+        }
+        .social-icons svg { width: 24px; height: 24px; fill: currentColor; }
+
+        /* Original Brand Colors applied via CSS classes */
+        .icon-fb { color: #1877F2; } 
+        .icon-yt { color: #FF0000; } 
+        .icon-ig { fill: url(#ig-gradient); } 
+        .icon-x { color: #000000; } 
+        .icon-pin { color: #E60023; } 
+        .icon-in { color: #0A66C2; } 
+        .icon-reddit { color: #FF4500; } 
+        .icon-aboutme { color: #0055FF; } 
+        .icon-threads { color: #000000; } 
+        .icon-tumblr { color: #35465C; } 
+        .icon-bsky { color: #0085FF; } 
+        .icon-linktree { color: #43E660; }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.2rem; }
+            .hero { padding: 80px 20px 100px 20px; }
+            .container { margin-top: -40px; }
+            .card { padding: 35px 25px; }
+            h2 { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Hidden SVG definitions for Gradients -->
+<svg width="0" height="0" style="position:absolute;">
+  <defs>
+    <radialGradient id="ig-gradient" r="150%" cx="30%" cy="107%">
+      <stop stop-color="#fdf497" offset="0" />
+      <stop stop-color="#fd5949" offset="0.45" />
+      <stop stop-color="#d6249f" offset="0.6" />
+      <stop stop-color="#285AEB" offset="1" />
+    </radialGradient>
+  </defs>
+</svg>
+
+<!-- Header Logo Section (Not Sticky, Not White) -->
+<div class="header-logo-section">
+    <img src="logo.jpg" alt="Auto Locksmith Dandenong Logo">
+</div>
+
+<!-- Hero Section with Background Image -->
+<div class="hero">
+    <div class="hero-content">
+        <h1>When Is It Time to Replace a Worn-Out Vehicle Key in Dandenong?</h1>
+        <p>A worn-out vehicle key often goes unnoticed until it suddenly stops working. Many drivers in Dandenong continue using keys with worn blades, unreliable transponder chips, weak remote buttons, or aging electronic components because the problems develop gradually. Over time, these issues can make it difficult to unlock the vehicle or start the engine, often leading to inconvenient lockouts or unexpected breakdowns at the worst possible moment.</p>
+        <p style="margin-top: 15px;">The good news is that most key failures can be avoided by recognizing the warning signs early. Replacing a worn vehicle key before it fails helps maintain reliable vehicle access, protects your vehicle's security system, and reduces the likelihood of costly emergency replacement services.</p>
+    </div>
+</div>
+
+<div class="container">
+
+    <!-- Card 1 -->
+    <div class="card">
+        <h2>Why Vehicle Keys Wear Out Over Time</h2>
+        
+        <h3>Everyday Use Causes Gradual Wear</h3>
+        <p>Vehicle keys are handled several times every day. Frequent use in the ignition, repeated locking and unlocking, and constant handling gradually wear down both mechanical and electronic components. Even careful use will eventually affect the condition of the key over time.</p>
+
+        <h3>Mechanical Components Naturally Deteriorate</h3>
+        <p>Traditional key blades experience normal wear through repeated contact with the ignition and door locks. Worn key blade edges, damaged grooves, and metal fatigue can make the key more difficult to insert or turn. Continuing to use a worn key may also increase wear inside the ignition cylinder.</p>
+
+        <h3>Electronic Components Also Have a Lifespan</h3>
+        <p>Modern vehicle keys contain electronic parts that naturally age. Batteries lose power over time, circuit boards experience normal wear, and remote buttons can become less responsive after years of regular use. These changes often happen gradually before complete failure occurs.</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+        <h2>Early Warning Signs That a Vehicle Key Needs Replacement</h2>
+        
+        <h3>Difficulty Turning the Ignition</h3>
+        <p>If the key becomes harder to turn, requires extra force, or works inconsistently in the ignition cylinder, it may be showing signs of wear. Ignoring these symptoms can eventually result in a key that no longer operates properly.</p>
+
+        <h3>Remote Functions Become Unreliable</h3>
+        <p>Remote key fobs often provide early warning signs before failing completely. Reduced operating range, buttons that require multiple presses, and delayed vehicle response may indicate a weakening battery or aging internal electronics.</p>
+
+        <h3>Visible Physical Damage</h3>
+        <p>Regularly inspect your key for visible damage. A bent key blade, cracked casing, loose buttons, or worn grooves can affect both performance and reliability. Physical damage may also expose sensitive electronic components to moisture and dust.</p>
+
+        <h3>Vehicle Recognition Problems</h3>
+        <p>Modern vehicles rely on the immobilizer system to verify the transponder key before allowing the engine to start. If the vehicle occasionally fails to recognize the key, displays a dashboard warning light, or experiences intermittent starting difficulties, the key may require replacement or reprogramming before complete failure occurs. To better understand what causes these sudden electronic key failures and how to prevent them, explore <a href="https://autolocksmithdandenong-ec72fc.gitlab.io/" class="content-link" target="_blank">Why Do Modern Car Keys Suddenly Stop Working in Dandenong?</a>.</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+        <h2>Risks of Continuing to Use a Damaged Vehicle Key</h2>
+        
+        <h3>Unexpected Vehicle Lockouts</h3>
+        <p>Using a damaged vehicle key increases the risk of unexpected lockouts. A worn key may stop working without warning, leaving you unable to unlock or start your vehicle when you are away from home. This can disrupt work, appointments, and travel plans while creating unnecessary stress.</p>
+
+        <h3>Potential Damage to the Ignition System</h3>
+        <p>A worn or bent key can place extra strain on the ignition switch. Over time, excessive wear may cause the key to jam inside the ignition or damage internal components. Repairing an ignition system is often more expensive than replacing a worn key before problems develop.</p>
+
+        <h3>Increased Vehicle Security Risks</h3>
+        <p>A key that no longer communicates reliably with the vehicle can affect authentication and locking performance. Inconsistent operation may reduce convenience and create uncertainty about whether the vehicle is properly secured after locking.</p>
+
+        <h3>Higher Emergency Replacement Costs</h3>
+        <p>Waiting until a key fails completely often results in emergency service requests. Urgent replacement, additional key programming, and unexpected downtime can make emergency situations more costly than planned preventive replacement.</p>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card">
+        <h2>Factors That Influence Vehicle Key Lifespan</h2>
+        
+        <h3>Frequency of Daily Use</h3>
+        <p>The more frequently a vehicle key is used, the faster it is likely to wear. Vehicles shared by multiple drivers, commercial vehicles, and high-mileage cars typically place greater demands on both mechanical and electronic key components.</p>
+
+        <h3>Environmental Conditions</h3>
+        <p>Environmental exposure also affects key longevity. Moisture, extreme heat, freezing temperatures, and dust can gradually reduce the reliability of electronic components and accelerate wear on the key's internal parts.</p>
+
+        <h3>Handling and Storage Habits</h3>
+        <p>Everyday habits have a significant impact on key lifespan. Carrying heavy keychains, frequently dropping the key, or storing it in unsuitable locations can damage both the key blade and sensitive electronic components.</p>
+
+        <h3>Vehicle Technology</h3>
+        <p>The type of vehicle also influences key durability. Traditional mechanical keys have different maintenance needs than smart keys, keyless entry systems, and push-button start vehicles, which rely on more complex electronic technology.</p>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="card">
+        <h2>Choosing the Right Time for Key Replacement</h2>
+        
+        <h3>Replace Before Complete Failure Occurs</h3>
+        <p>The best time to replace a vehicle key is before it stops working altogether. Replacing a worn key early helps prevent emergency situations, maintains reliable vehicle access, and reduces the inconvenience of unexpected failures.</p>
+
+        <h3>Benefits of Professional Key Assessment</h3>
+        <p>A professional inspection can identify signs of wear that are not always obvious. Key wear assessments, electronic testing, and programming verification help determine whether your current key is still performing reliably or should be replaced.</p>
+
+        <h3>Preparing for Key Replacement</h3>
+        <p>Before arranging a replacement, gather your Vehicle Identification Number (VIN), proof of ownership, and any available spare keys. Having this information ready helps streamline the replacement process and ensures the correct key can be programmed for your vehicle.</p>
+
+        <h3>Modern Replacement Solutions</h3>
+        <p>Drivers looking for <a href="https://locksmithdandenong.com.au/" class="content-link" target="_blank">car key replacement Dandenong</a> services can access professional key cutting, transponder programming, smart key replacement, and preventive vehicle key maintenance from an experienced automotive locksmith. Modern replacement solutions are designed to restore reliable vehicle access, ensure proper key programming, and maintain compatibility with today's advanced smart key systems and vehicle security technology.</p>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="card">
+        <h2>How to Extend the Life of Your Vehicle Key</h2>
+        
+        <h3>Handle Keys With Care</h3>
+        <p>Simple habits can significantly extend the lifespan of a vehicle key. Avoid dropping your keys, protect them from moisture, and prevent excessive pressure by keeping them away from heavy objects. Careful handling helps preserve both the key blade and the internal electronic components.</p>
+
+        <h3>Maintain Electronic Components</h3>
+        <p>Electronic keys require occasional maintenance to remain reliable. Replace batteries promptly when performance begins to decline, keep battery contacts clean, and test remote functions regularly. Routine maintenance helps identify small issues before they lead to complete key failure.</p>
+
+        <h3>Keep a Backup Key Ready</h3>
+        <p>A spare key provides valuable protection if your primary key becomes lost or damaged. Store it in a secure location, test it periodically to confirm it still works, and update its programming if necessary to ensure reliable emergency access.</p>
+    </div>
+
+    <!-- Card 7 -->
+    <div class="card">
+        <h2>Benefits of Replacing a Worn-Out Key Early</h2>
+        
+        <h3>Improved Reliability</h3>
+        <p>Replacing a worn key before it fails completely provides consistent vehicle access and greatly reduces the likelihood of unexpected lockouts or starting problems.</p>
+
+        <h3>Lower Long-Term Costs</h3>
+        <p>Early replacement helps prevent unnecessary wear on the ignition cylinder, reduces the risk of emergency service calls, and may avoid more expensive repairs or replacement costs later.</p>
+
+        <h3>Better Vehicle Security</h3>
+        <p>A properly functioning key supports reliable authentication with the vehicle's security system, improving key performance and helping maintain strong automotive security.</p>
+    </div>
+
+    <!-- FAQ Card -->
+    <div class="card">
+        <h2>Frequently Asked Questions</h2>
+        
+        <div class="faq-item">
+            <div class="faq-q">How do I know if my vehicle key is worn out?</div>
+            <div class="faq-a"><p>Common signs include difficulty turning the key, unreliable remote functions, worn grooves, cracked casing, loose buttons, and intermittent problems starting the vehicle.</p></div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">Can a worn key damage the ignition cylinder?</div>
+            <div class="faq-a"><p>Yes. A worn or damaged key can place additional strain on the ignition cylinder, increasing wear and potentially leading to jamming or costly ignition repairs.</p></div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">How long does a modern car key usually last?</div>
+            <div class="faq-a"><p>The lifespan varies depending on usage, handling, environmental conditions, and the type of key. With proper care and maintenance, many modern keys remain reliable for several years.</p></div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">Should I replace my key before it completely stops working?</div>
+            <div class="faq-a"><p>Yes. Replacing a worn key before complete failure helps avoid unexpected lockouts, emergency replacement costs, and unnecessary inconvenience.</p></div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">Can remote key buttons be repaired or should the key be replaced?</div>
+            <div class="faq-a"><p>It depends on the extent of the damage. Minor issues may sometimes be repaired, while heavily worn buttons or internal electronic faults may require replacement or reprogramming.</p></div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">Does a replacement key require programming?</div>
+            <div class="faq-a"><p>Most modern transponder keys, remote key fobs, and smart keys require programming so they can communicate correctly with the vehicle's security system.</p></div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">Is it important to keep a spare vehicle key?</div>
+            <div class="faq-a"><p>Yes. A spare key provides reliable backup access, reduces downtime if the primary key fails, and can simplify the replacement process if another key is ever needed.</p></div>
+        </div>
+    </div>
+
+    <!-- Business Information Section -->
+    <div class="card business-card">
+        <div class="business-header">
+            <h2>Trusted and Reliable Auto Keys Dandenong</h2>
+            <div class="business-description">
+                Auto Locksmith Dandenong Provide mobile car locksmith services across Dandenong. Our coverage extends throughout the Dandenong and surrounding suburbs and beyond, ensuring fast response times wherever you need help. We're committed to serving the entire Dandenong community with expert automotive locksmith services.
+            </div>
+        </div>
+
+        <div class="business-grid">
+            <div class="info-item">
+                <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                <div class="info-text">
+                    <strong>Owner Name</strong>
+                    <span>Michael Simon</span>
+                </div>
+            </div>
+            
+            <div class="info-item">
+                <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <div class="info-text">
+                    <strong>Address</strong>
+                    <span>294 Thomas St Dandenong VIC 3175 Australia</span>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <div class="info-text">
+                    <strong>Phone</strong>
+                    <a href="tel:0410380354">0410 380 354</a>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                <div class="info-text">
+                    <strong>Website</strong>
+                    <a href="https://locksmithdandenong.com.au/" target="_blank">locksmithdandenong.com.au</a>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <div class="info-text">
+                    <strong>Business Email</strong>
+                    <a href="mailto:michael@ostanlock.com.au">michael@ostanlock.com.au</a>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <div class="info-text">
+                    <strong>Hours</strong>
+                    <span>Monday to Sunday: Open 24 Hours</span>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <div class="info-text">
+                    <strong>Year Established</strong>
+                    <span>1999</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social Media Embeds with Original Icons -->
+        <div class="social-section">
+            <div class="social-title">Connect With Us on Social Media</div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/autolocksmithdandenong/" class="icon-fb" target="_blank" aria-label="Facebook">
+                    <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                </a>
+                <a href="https://www.youtube.com/@AutoLocksmithDandenong" class="icon-yt" target="_blank" aria-label="YouTube">
+                    <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+                </a>
+                <a href="https://www.instagram.com/lock.smithdandenong/" class="icon-ig" target="_blank" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="url(#ig-gradient)" stroke-width="2"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="none" stroke="url(#ig-gradient)" stroke-width="2"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="url(#ig-gradient)" stroke-width="2"></line></svg>
+                </a>
+                <a href="https://x.com/locksmithdande" class="icon-x" target="_blank" aria-label="X (Twitter)">
+                    <svg viewBox="0 0 24 24"><path d="M4 4l16 16m0-16L4 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>
+                </a>
+                <a href="https://www.pinterest.com/locksmithdandenon/" class="icon-pin" target="_blank" aria-label="Pinterest">
+                    <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.66 19.3c.1-.88.19-2.22.43-3.18.22-.9 1.45-6.14 1.45-6.14s-.37-.74-.37-1.84c0-1.72 1-3 2.25-3 1 0 1.5.76 1.5 1.67 0 1.04-.66 2.59-1 4.02-.28 1.2.6 2.18 1.78 2.18 2.13 0 3.77-2.25 3.77-5.5 0-2.87-2.07-4.88-5.02-4.88-3.4 0-5.4 2.55-5.4 5.18 0 1.04.4 2.16.9 2.77.1.12.11.23.08.35-.1.4-.33 1.34-.37 1.52-.06.23-.2.28-.44.17-1.63-.76-2.65-3.15-2.65-5.07 0-4.1 2.98-7.87 8.6-7.87 4.52 0 8.04 3.22 8.04 7.52 0 4.5-2.84 8.12-6.78 8.12-1.32 0-2.56-.68-2.98-1.5l-.8 3.1c-.3 1.1-1.1 2.5-1.65 3.35A10 10 0 1 0 12 2z"></path></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/auto-locksmith-dandenong-48b2b841a/" class="icon-in" target="_blank" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="https://www.reddit.com/user/locksmithdandenong/" class="icon-reddit" target="_blank" aria-label="Reddit">
+                    <svg viewBox="0 0 24 24"><path d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8.5 15.5c1.5 1 5.5 1 7 0" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="9" cy="11" r="1" fill="currentColor"/><circle cx="15" cy="11" r="1" fill="currentColor"/></svg>
+                </a>
+                <a href="https://about.me/autolocksmithdandenong" class="icon-aboutme" target="_blank" aria-label="About.me">
+                    <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+                </a>
+                <a href="https://www.threads.com/@lock.smithdandenong" class="icon-threads" target="_blank" aria-label="Threads">
+                    <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 5.52 4.48 10 10 10 5.52 0 10-4.48 10-10v-1h-9v2h7v1c0 4.41-3.59 8-8 8s-8-3.59-8-8 3.59-8 8-8c2.25 0 4.29.93 5.75 2.44l-1.41 1.41C13.23 6.64 11.66 6 10 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6H12v-2z"/></svg>
+                </a>
+                <a href="https://www.tumblr.com/locksmithdandenong" class="icon-tumblr" target="_blank" aria-label="Tumblr">
+                    <svg viewBox="0 0 24 24"><path d="M14.56 15.5c-.52 0-1.03-.22-1.33-.61-.31-.38-.42-.89-.31-1.38V8.62H16v-3h-3.08V2h-3.22v3.62H7v3h2.7v5.27c0 1.45.54 2.8 1.54 3.75C12.24 18.6 13.6 19 15.08 19h1.92v-3h-2.44z"/></svg>
+                </a>
+                <a href="https://bsky.app/profile/locksmithdandenong.bsky.social" class="icon-bsky" target="_blank" aria-label="Bluesky">
+                    <svg viewBox="0 0 24 24"><path d="M12 10.8c-1.2-2.1-3.6-4.5-6-5.8-3.3-1.8-4.8-.8-4.8 2.6 0 1.2.6 4.3.9 5.2 1.3 4.2 4.9 5.2 8.7 4.2-2.1 3.5-6.3 4.6-9.6 2.9 5.4 3.4 10.8.6 10.8-4.4v-4.7zm0 0c1.2-2.1 3.6-4.5 6-5.8 3.3-1.8 4.8-.8 4.8 2.6 0 1.2-.6 4.3-.9 5.2-1.3 4.2-4.9 5.2-8.7 4.2 2.1 3.5 6.3 4.6 9.6 2.9-5.4 3.4-10.8.6-10.8-4.4v-4.7z" fill="currentColor"/></svg>
+                </a>
+                <a href="https://linktr.ee/locksmithdandenon" class="icon-linktree" target="_blank" aria-label="Linktree">
+                    <svg viewBox="0 0 24 24"><path d="M12 21V10m0 0l-5 5m5-5l5 5m-5-5V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Final Conclusion Card -->
+    <div class="card">
+        <h2>Resolve Lost Car Key Problems With Confidence</h2>
+        <h3>Key Takeaways</h3>
+        <p>Replacing a worn-out vehicle key before it fails completely helps prevent unexpected lockouts, ignition damage, and unnecessary expenses. By recognizing early warning signs and maintaining both mechanical and electronic key components, Dandenong drivers can ensure reliable vehicle access and better long-term security.</p>
+    </div>
+
+</div>
+
+<!-- Scroll Animation Script -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const cards = document.querySelectorAll('.card');
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, {
+            threshold: 0.1, 
+            rootMargin: "0px 0px -30px 0px"
+        });
+
+        cards.forEach(card => {
+            observer.observe(card);
+        });
+    });
+</script>
+
+</body>
+</html>
